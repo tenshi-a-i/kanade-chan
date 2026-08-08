@@ -1,0 +1,6 @@
+{
+  "buildCommand": "bash vercel-build.sh",
+  "outputDirectory": "apps/stage-web/dist",
+  "installCommand": "corepack enable && pnpm install --frozen-lockfile",
+  "framework": "vite"
+}
